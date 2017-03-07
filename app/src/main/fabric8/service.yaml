@@ -1,0 +1,4 @@
+kind: Service
+metadata:
+  annotations:
+    "service.alpha.openshift.io/dependencies": "[{\"application\": \"sso\", \"kind\": \"Service\"}]"
